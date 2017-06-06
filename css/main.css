@@ -120,7 +120,7 @@ h1 {
 .bodybox h3 {
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .bodybox p {
@@ -132,6 +132,10 @@ h1 {
 
 .bodybox ul {
   padding-left: 70px;
+}
+
+.bodybox li {
+  padding-right: 30px;
 }
 
 .bodybox a {
