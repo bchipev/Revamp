@@ -10,6 +10,7 @@ html {
 
 .container {
   width: 75%;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -52,7 +53,6 @@ html {
 .bodybox {
   font-family: 'Slabo 27px';
   color: white;
-  height: auto;
   width: 100%;
   background-color: #333333;
   border-radius: 6px;
@@ -110,4 +110,27 @@ html {
 
 .selected {
   font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .col1 {
+    width: 100%;
+    width: 100%;
+    background-color: #333333;
+    border-radius: 6px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+
+  .banner {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header h1 {
+    font-size: 38px;
+  }
+  .nav li {
+    font-size: 22px;
+  }
 }
