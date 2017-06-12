@@ -112,7 +112,20 @@ html {
   font-weight: 600;
 }
 
-@media (max-width: 1000px) {
+.sform, .mform {
+  display: none;
+}
+
+.sdiscord, .mdiscord {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+
+  .container {
+    max-width: 500px;
+  }
+
   .col1 {
     width: 100%;
     width: 100%;
@@ -124,13 +137,33 @@ html {
   .banner {
     display: none;
   }
+  .xldiscord, .xlform {
+    display: none;
+  }
+  .mform, .mdiscord {
+    display: block;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 670px) {
+
+  .container {
+    max-width: 280px;
+  }
+
   .header h1 {
     font-size: 38px;
   }
   .nav li {
     font-size: 22px;
   }
+
+  .mform, .mdiscord {
+    display: none;
+  }
+
+  .sform, .sdiscord {
+    display: block;
+  }
+
 }
