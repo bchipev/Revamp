@@ -113,11 +113,7 @@ html {
   font-weight: 600;
 }
 
-.sform, .mform {
-  display: none;
-}
-
-.sdiscord, .mdiscord {
+.sform, .mform, .svideo, .mvideo, .sdiscord, .mdiscord {
   display: none;
 }
 
@@ -138,10 +134,10 @@ html {
   .banner {
     display: none;
   }
-  .xldiscord, .xlform {
+  .xldiscord, .xlform, .xlvideo {
     display: none;
   }
-  .mform, .mdiscord {
+  .mform, .mdiscord, .mvideo {
     display: block;
   }
 }
@@ -159,11 +155,11 @@ html {
     font-size: 22px;
   }
 
-  .mform, .mdiscord {
+  .mform, .mdiscord, .mvideo {
     display: none;
   }
 
-  .sform, .sdiscord {
+  .sform, .sdiscord, .svideo {
     display: block;
   }
 
